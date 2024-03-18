@@ -1,0 +1,38 @@
+.cardGroup {
+  @apply
+  flex 
+  flex-wrap
+  max-w-7xl
+  mx-auto
+  my-4
+}
+/* styles.module.css */
+
+.categoryNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #333; /* Text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.categoryLink {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 16px;
+  border-radius: 4px; /* Rounded corners */
+  transition: color 0.3s ease; /* Transition only on text color */
+}
+
+.categoryLink:hover {
+  color: #4CAF50; /* Green text color on hover */
+}
+
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 120px; /* Adjust the maximum width as needed */
+}
